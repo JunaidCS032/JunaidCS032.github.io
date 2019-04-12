@@ -1,0 +1,403 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+    
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      color: green;
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+  <title>Junaid Ahmed Ansari</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Junaid Ahmed Ansari</name>
+              </p>
+              <!--
+              <p>I am a staff research scientist at <a href="https://ai.google/research">Google Research</a>, where I work on computer vision and computational photography. At Google I've worked on <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://www.google.com/get/cardboard/jump/">Jump</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, and <a href="https://www.youtube.com/watch?v=JSnB06um5r4">Glass</a>.
+              </p>
+          	-->
+          	<p>I am a research Masters student at Robotics Research Center at IIIT Hyderabad, India, advised by Prof. K. Madhava Krishna. I was QInF Fellow (Qualcomm India) for the year 2017-2018. My research interests span visual SLAM, multi-object tracking and 3D reconstruction; especially in a monocular setting. 
+          	</p>
+          	<p>	
+          		I am specifically interested in applying classical/geometric machine vision techniques (such as bundle adjustment and pose-graph optimization) in conjunction with deep learning (for tasks like semantic keypoint inference and single view depth prediction) for dense monocular multi-body SLAM in metric scale.	
+          		
+          		<!-- 
+          			I am specifically interested in applying classical techniques (such as bundle adjustment and pose-graph optimization) in conjunction with deep learning (for tasks like semantic keypoint inference and single view depth prediction) to rather bring the dynamism of the scene in the (monocular visual) SLAM systems, and not ignore it. 
+          		-->
+              </p>
+              <p>              	
+                My masters thesis (coming soon) focuses on reconstruction of moving (or static) vehicles on arbitrary road plane profiles from a moving monocular camera. I leverage feature prediction capabilities of deep networks tightly coupled with classical geometric methods such as multi-view stereo and bundle adjustment to jointly optimize the pose-shape of the vehicle and local road plane geometry.  
+              </p>
+
+
+              <p align=center>                
+                <a href="mailto:ansariahmedjunaid@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/JunaidCS032">GitHub</a> &nbsp/&nbsp
+                <a href="data/junaid-cv.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.co.in/citations?user=Uc8mKqMAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/junaidcs032/"> LinkedIn </a>
+              </p>
+            </td>
+            <td width="33%">
+              <img src="images/junaid_ahmed.jpg" width="180" height="234">
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Research</heading>             
+
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr onmouseout="hide_back_image1()" onmouseover="show_back_image1()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='infer_kitti'><img src='images/infer_transfer.png' width="170" height="170"></div>
+                <img src='images/infer_kitti.png' width="170" height="170">
+              </div>
+              <script type="text/javascript">
+                function hide_back_image1() {
+                  document.getElementById('infer_kitti').style.opacity = "0";
+                }
+
+                function show_back_image1() {
+                  document.getElementById('infer_kitti').style.opacity = "1";
+                }
+                hide_back_image1()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://drive.google.com/file/d/1H0Wtd--un2JN76dUJN8iC9fWfkA16n8D/view?usp=sharing">
+                <papertitle>INFER: INtermediate representations for FuturE pRediction</papertitle>
+              </a>
+              <br>
+              <a href="https://talsperre.github.io/">Shashank Srikanth</a>,
+              <strong>Junaid Ahmed Ansari</strong>,
+              <a href="http://karnikram.info/">Karnik Ram </a>,
+              <a href="https://scholar.google.com/citations?user=4uKV9aIAAAAJ&hl=en">Sarthak Sharma</a>,
+              <a href="http://krrish94.github.io/">J Krishna Murthy</a>,
+              <a href="https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en">K Madhava Krishna</a>            
+              <br>
+              <em>Submitted to IROS</em>, 2019 &nbsp <font color="red"></font>
+              <br>
+              <a href="https://arxiv.org/pdf/1903.10641">arxiv</a> /
+              <a href="https://talsperre.github.io/INFER/">project page</a> /
+              <a href="https://github.com/talsperre/INFER">code</a> /
+              <a href="https://youtu.be/sHxXIX-FZoU">video</a>
+			  <p></p>
+              <p>In this work we proposed an adequate <i>intermediate representation</i> of the scene that in addition to facilitating better <b>end-to-end trajectory forecasting</b> but also allows the model to be transferred <b><i> zero-shot </i></b> to other datasets.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="show_back_image2()" onmouseover="hide_back_image2()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='iros18_kitti'><img src='images/iros18_synthia.png' width="170" height="170"></div>
+                <img src='images/iros18_kitti.png' width="170" height="170">
+              </div>
+              <script type="text/javascript">
+                function hide_back_image2() {
+                  document.getElementById('iros18_kitti').style.opacity = "0";
+                }
+
+                function show_back_image2() {
+                  document.getElementById('iros18_kitti').style.opacity = "1";
+                }
+                hide_back_image2()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://drive.google.com/file/d/1H0Wtd--un2JN76dUJN8iC9fWfkA16n8D/view?usp=sharing">
+                <papertitle>The Earth ain't Flat: Monocular reconstruction of Vehicles on Steep and Graded Roads from
+			    a Moving Camera</papertitle>
+              </a>
+              <br>              
+              <strong>Junaid Ahmed Ansari*</strong>,              
+              <a href="https://scholar.google.com/citations?user=4uKV9aIAAAAJ&hl=en">Sarthak Sharma*</a>,
+              <a href="http://krrish94.github.io/">J Krishna Murthy</a>,
+              <a href="https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en">K Madhava Krishna</a>            
+              <br>
+              <em>IROS</em>, 2018 &nbsp <font color="red"></font> (*equal contribution)
+              <br>
+              <a href="https://arxiv.org/pdf/1803.02057">arxiv</a> / 
+              project page /
+              code /
+              <a href="https://www.youtube.com/watch?v=C_FKg0HTfw4">video</a>
+			  <p></p>
+              <p>In this work we proposed a joint optimization framework for estimating the pose-shape of vehicles along with its local road plane geometry. We relax the coplanarity assumption that says that the vehicle of interest and the target vehicle should share the same road plane, thereby reconstructing vehicles on arbitrary road plane profiles.</p>
+            </td>
+          </tr>
+      
+
+      	  <tr onmouseout="hide_back_image3()" onmouseover="show_back_image3()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='icra18'><img src='images/icra18_2.png' width="170" height="170"></div>
+                <img src='images/icra18_1.png' width="170" height="170">
+              </div>
+              <script type="text/javascript">
+                function show_back_image3() {
+                  document.getElementById('icra18').style.opacity = "1";
+                }
+
+                function hide_back_image3() {
+                  document.getElementById('icra18').style.opacity = "0";
+                }
+                hide_back_image3()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://drive.google.com/file/d/1H0Wtd--un2JN76dUJN8iC9fWfkA16n8D/view?usp=sharing">
+                <papertitle>Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object tracking</papertitle>
+              </a>
+              <br>              
+              <a href="https://scholar.google.com/citations?user=4uKV9aIAAAAJ&hl=en">Sarthak Sharma*</a>,
+              <strong>Junaid Ahmed Ansari*</strong>,                           
+              <a href="http://krrish94.github.io/">J Krishna Murthy</a>,
+              <a href="https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en">K Madhava Krishna</a>            
+              <br>
+              <em>ICRA</em>, 2018 &nbsp <font color="red"></font> (*equal contribution)
+              <br>
+              <a href="https://arxiv.org/pdf/1802.09298.pdf">arxiv</a> / 
+              <a href="https://junaidcs032.github.io/Geometry_ObjectShape_MOT/">project page</a> /
+              <a href="https://github.com/JunaidCS032/MOTBeyondPixels">code</a> /
+              <a href="https://www.youtube.com/watch?v=2yApZOv_VkU">video / </a>   
+              <a href="http://www.cvlibs.net/datasets/kitti/eval_tracking_detail.php?result=43713ff142271660c77d258af6bdbceb079db678">KITTI Tracking Evaluation </a>
+			  <p></p>
+              <p>Simple and complementary cues were proposed for online tracking of cars using monocular image sequences. Our method was state-of-the-art<sup>+</sup> on KITTI Tracking benchmark at the time of submission.
+              <br>
+              <i> <sup>+</sup>amongst the published approaches.</i></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="hide_back_image4()" onmouseover="show_back_image4()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='vcik'><img src='images/vcik_kit.png' width="170" height="170"></div>
+                <img src='images/vcik_framework.png' width="170" height="170">
+              </div>
+              <script type="text/javascript">
+                function show_back_image4() {
+                  document.getElementById('vcik').style.opacity = "1";
+                }
+
+                function hide_back_image4() {
+                  document.getElementById('vcik').style.opacity = "0";
+                }
+                hide_back_image4()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://drive.google.com/file/d/1H0Wtd--un2JN76dUJN8iC9fWfkA16n8D/view?usp=sharing">
+                <papertitle>An Open Voice Command Interface Kit</papertitle>
+              </a>
+              <br>                           
+              <strong>Junaid Ahmed Ansari</strong>,                           
+              <a href="http://www.rri.res.in/ral_arasi.html">Arasi Sathyamurthi</a>,
+              <a href="http://www.rri.res.in/aa_rameshb.html">Ramesh Balasubramanyam</a>            
+              <br>
+              <em>IEEE Transactions on Human-Machine Systems</em>, 2016 &nbsp <font color="red"></font>
+              <br>
+              <a href="https://ieeexplore.ieee.org/document/7300400">paper</a> / 
+              <a href="https://github.com/projectopenvcik/OpenVCIK/wiki/OpenVCIK-Services">project page</a> /
+              <a href="https://github.com/projectopenvcik/OpenVCIK">code</a> /
+              <a href="https://youtu.be/7SkeCymsgMI">video </a>
+			  <p></p>
+              <p>This voice command interface kit, developed by integrating open-source software and inexpensive hardware components, can be used for a variety of applications such as home automation, device control, and robot control; in this case we are controlling an electric wheelchair via voice commands. The software for the kit has been developed as a lightweight, multi-threaded and modular framework with replaceable components. It also provides a C++ library to support development of applications on top of it. </p>       
+            </td>
+          </tr>	
+
+          <tr onmouseout="hide_back_image5()" onmouseover="show_back_image5()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='vacu'><img src='images/vacu_kit.png' width="170" height="170"></div>
+                <img src='images/vacu_boards.png' width="170" height="170">
+              </div>
+              <script type="text/javascript">
+                function show_back_image5() {
+                  document.getElementById('vacu').style.opacity = "1";
+                }
+
+                function hide_back_image5() {
+                  document.getElementById('vacu').style.opacity = "0";
+                }
+                hide_back_image5()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://drive.google.com/file/d/1H0Wtd--un2JN76dUJN8iC9fWfkA16n8D/view?usp=sharing">
+                <papertitle>VACU - Voice Activated Control Unit</papertitle>
+              </a>
+              <br>                           
+              <a href="http://www.rri.res.in/ral_arasi.html">Arasi Sathyamurthi</a>,
+              <strong>Junaid Ahmed Ansari</strong>,                                         
+              <a href="http://www.rri.res.in/aa_rameshb.html">Ramesh Balasubramanyam</a>            
+              <br>
+              <em>Poster in Indo-German workshop on Neurobionics in clinical Neurology</em>, 2012 &nbsp <font color="red"></font>
+              <br>
+              <a href="https://drive.google.com/open?id=0B-9NOTtQ3zTQbkREcmZLWW1rc00">poster</a> / 
+              <a href="https://youtu.be/7SkeCymsgMI">video </a>
+			  <p></p>
+              <p>
+              	VACU is an innovative, inexpensive, and standalone embedded solution for voice activation of a powered wheelchair to enable physically challenged people become self-reliant for their locomotion. It is completely based on COTS hardware and provides interfaces for thumb-sticks, sonar sensors,and a compass sensor with PID control for steady motion and collision avoidance; it also has a visual and auditory feedback interface
+              <br> </p>
+            </td>
+          </tr>	
+
+
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Projects</heading>              
+            </td>
+          </tr>
+        </table>
+        <p> Corridor detection, simple RGBD VO, CAIR, QINF, DrawInAir
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Service</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="images/cvf.jpg"></td>
+            <td width="75%" valign="center">
+              <p>
+                <a href="http://cvpr2019.thecvf.com/area_chairs">
+                  Area Chair, CVPR 2019
+                </a>
+                <br>
+                <br>
+                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">
+                  Area Chair, CVPR 2018
+                </a>
+                <br>
+                <br>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img src="images/cs188.jpg" alt="cs188"></td>
+            <td width="75%" valign="center">
+              <p>
+                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">
+                  Graduate Student Instructor, CS188 Spring 2011
+                </a>
+                <br>
+                <br>
+                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
+                  Graduate Student Instructor, CS188 Fall 2010
+                </a>
+                <br>
+                <br>
+                <a href="http://aima.cs.berkeley.edu/">
+                  Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition
+                </a>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              Thanks to Dr. Baron for the <a href="https://github.com/jonbarron/website"> source code </a>.
+            </td>
+          </tr>
+        </table>
+        </td>
+
+    </tr>    
+  </table>
+</body>
+
+</html>
